@@ -74,18 +74,18 @@ go run main.go
 
 1.8M -> 12M size increase with the following modules:
 
-- "go.opentelemetry.io/contrib/bridges/otelslog"
-- "go.opentelemetry.io/otel/exporters/otlp/otlplog/otlploghttp"
-- "go.opentelemetry.io/otel/log/global"
-- "go.opentelemetry.io/otel/sdk/log"
+- go.opentelemetry.io/contrib/bridges/otelslog
+- go.opentelemetry.io/otel/exporters/otlp/otlplog/otlploghttp
+- go.opentelemetry.io/otel/log/global
+- go.opentelemetry.io/otel/sdk/log
 
 ## Reading the code
 
 Structs reference:
 
-- opentelemetry-collector/pdata/internal/data/protogen/logs/v1/logs.pb.go
-- opentelemetry-collector/pdata/internal/data/protogen/resource/v1/resource.pb.go
-- opentelemetry-collector/pdata/internal/data/protogen/common/v1/common.pb.go
+- `opentelemetry-collector/pdata/internal/data/protogen/logs/v1/logs.pb.go`
+- `opentelemetry-collector/pdata/internal/data/protogen/resource/v1/resource.pb.go`
+- `opentelemetry-collector/pdata/internal/data/protogen/common/v1/common.pb.go`
 
 ## Self-implemented version
 
